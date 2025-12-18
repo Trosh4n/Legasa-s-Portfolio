@@ -1,0 +1,116 @@
+body{
+    margin:0;;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    background: grey;
+    padding: 15px 40px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.navlinks{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    
+}
+
+.navlinks a:hover{
+    color: lawngreen;
+    transition: 0.3s;
+}
+
+.footer-section{
+    background: grey;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+.hero-section{
+
+    height: 70vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    line-height: 0;
+    margin: 2px 0;
+    margin-top: 90px;
+}
+
+
+
+.hero-img{
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    border-radius: 60%;
+    border-style: solid;
+    border-color: rgb(123, 123, 123);
+    box-shadow: 2px 2px 12px lawngreen;
+}
+
+.about-section{
+    padding: 30px 40px;
+    text-align: justify;
+    border-radius: 15%;
+    background-color: rgb(224, 225, 223);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 0%;
+
+}
+
+.about-section h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-section{
+    padding: 30px 40px;
+    text-align: center;
+    border-radius: 16%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(224, 225, 223);
+}
+
+.skills-section{
+    padding: 30px 40px;
+    text-align: justify;
+    border-radius: 16%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(224, 225, 223);
+}
+
+.skills-section h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
